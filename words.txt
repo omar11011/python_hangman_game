@@ -1,0 +1,12 @@
+planeta
+computadora
+perro
+escritorio
+ubuntu
+cocinero
+profesor
+curso
+teclado
+pelota
+pastilla
+celular
