@@ -5,15 +5,8 @@ def getWord():
     with open('words.txt', 'r', encoding="utf-8") as f:
         count = 0
         keys = list(f)
-
-        # Eliminando el caracter "\n" de cada palabra
-        for i in keys:
-            array = list(i)
-            if array[len(array) - 1] == '\n': character_removed = array.pop(len(array) - 1)
-            keys[count] = ''.join(array)
-            count += 1
-
-        return random.choice(keys).upper()
+        # Eliminando el caracter "\n" de cada palabra con el método strip().   
+        return random.choice(keys).upper().strip()
 
 def run():
     win = False
